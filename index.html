@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+          
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputFirstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="inputFirstName" aria-label="First name">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputLastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="inputLastName" aria-label="Last name">
+                </div>
+                <div class="col-md-12">
+                    <label for="inputEmail" class="form-label">Email*</label>
+                    <input type="text" class="form-control" id="inputEmail">
+                </div>
+                <div class="col-md-12">
+                    <h3>Your Experience*</h3>
+                    <div class="col-md-3"><input type="text" class="form-control" id="star"></div>
+                    <h4>Over all how would you rate you experience with us?</h4>
+                    <p>How satisfied are you with*:</p>
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">      </th>
+                            <th scope="col">very unsatisfied</th>
+                            <th scope="col">unsatisfied</th>
+                            <th scope="col">neutral</th>
+                            <th scope="col">satisfied</th>
+                            <th scope="col">very satisfied</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">purchase</th>
+                            <td><input type="radio"></td>
+                            <td><input type="radio"></td>
+                            <td><input type="radio"></td>
+                            <td><input type="radio"></td>
+                            <td><input type="radio"></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">service</th>
+                            <td><input type="radio"></td>
+                            <td><input type="radio"></td>
+                            <td><input type="radio"></td>
+                            <td><input type="radio"></td>
+                            <td><input type="radio"></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">company overall</th>
+                            <td><input type="radio"></td>
+                            <td><input type="radio"></td>
+                            <td><input type="radio"></td>
+                            <td><input type="radio"></td>
+                            <td><input type="radio"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <p> how likely are you to *</p>
+                      <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">      </th>
+                          <th scope="col">very likely</th>
+                          <th scope="col">unlikely</th>
+                          <th scope="col">neutral</th>
+                          <th scope="col">likely</th>
+                          <th scope="col">very likely</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">Buy from us again</th>
+                          <td><input type="radio"></td>
+                          <td><input type="radio"></td>
+                          <td><input type="radio"></td>
+                          <td><input type="radio"></td>
+                          <td><input type="radio"></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Recommand our product to others</th>
+                          <td><input type="radio"></td>
+                          <td><input type="radio"></td>
+                          <td><input type="radio"></td>
+                          <td><input type="radio"></td>
+                          <td><input type="radio"></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Recommaand our company to others</th>
+                          <td><input type="radio"></td>
+                          <td><input type="radio"></td>
+                          <td><input type="radio"></td>
+                          <td><input type="radio"></td>
+                          <td><input type="radio"></td>
+                          
+                        </tr>
+                      </tbody>
+                    </table>
+                      
+                    <label for="inputComments" class="form-label">Additional comments or Suggestions</label>
+                    <textarea class="form-control" id="inputComments" rows="3"></textarea>
+                </div>
+            </div>
+            <input class="btn btn-primary me-3" type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="./js/script.js"></script>
+
+</body>
+</html>
